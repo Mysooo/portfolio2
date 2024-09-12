@@ -5,7 +5,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-gray-100 p-4 shadow-md">
+    <header className="bg-gray-100 p-4 shadow-md relative">
       <div className="flex justify-between items-center">
         <h1 className="text-xl font-bold">Akshyat Pathak</h1>
 
@@ -29,7 +29,7 @@ function Header() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <nav className="md:hidden flex flex-col space-y-4 mt-4">
+        <nav className="md:hidden absolute top-16 left-0 w-full bg-gray-100 shadow-lg flex flex-col items-center space-y-4 py-4 z-50">
           <Link to="/" className="text-gray-700 hover:text-blue-500">Home</Link>
           <Link to="/projects" className="text-gray-700 hover:text-blue-500">Projects</Link>
           <Link to="/about" className="text-gray-700 hover:text-blue-500">About</Link>

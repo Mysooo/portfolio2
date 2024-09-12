@@ -5,7 +5,7 @@ import Home from './page/Home';
 import Header from './components/Header';
 import Projects from './page/Projects';
 import About from './page/About'; // Import the About page
-import Sidebar from './components/SideBar';// Import the Sidebar component
+import Sidebar from './components/Sidebar';// Import the Sidebar component
 
 function App() {
   return (

@@ -23,7 +23,7 @@ const projects = [
     title: 'Portfolio Website',
     description: 'My personal portfolio showcasing my projects and skills.',
     githubLink: 'https://github.com/Mysooo/portfolio2',
-    liveLink: 'https://your-portfolio-link.com',
+    liveLink: 'https://akshyatpathak.netlify.app/',
     imageUrl: projectImage3, // Use the imported image
   },
 ];
